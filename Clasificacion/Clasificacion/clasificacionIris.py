@@ -1,6 +1,6 @@
 import pandas as pd
 import streamlit as st
-import streamlit.components.vl as components
+
 hide_streamlit_style= """
 <style>
 #MainMenu {visibility:hidden;}

@@ -15,7 +15,7 @@ x_train, x_test, y_train, y_test = train_test_split(dfIris[dfIris.columns[0:4]],
 modelos = []
 #print(x_train, x_test)
 modelo = LogisticRegression(random_state=0).fit(x_train, y_train)
-modelo.score[x_test, y_test]
+modelo.score(x_test, y_test)
 modelo.predict(x_test)
 modelos.append(("LR", LogisticRegression()))
 
