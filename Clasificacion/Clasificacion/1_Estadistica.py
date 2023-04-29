@@ -2,6 +2,7 @@ import pandas as pd
 import streamlit as st
 import streamlit.components.v1 as components
 
+
 hide_streamlit_style= """
 <style>
 #MainMenu {visibility:hidden;}
