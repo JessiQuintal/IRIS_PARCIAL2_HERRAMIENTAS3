@@ -10,5 +10,5 @@ Portafolio Jessica Quintal
 -- 2 **Models**<br>
 ![Overview](https://github.com/JessiQuintal/herramientas3_2023/blob/main/MODELS.png)
 
--- 2 **Metricas**<br>
+-- 3 **Metricas**<br>
 ![Overview](https://github.com/JessiQuintal/herramientas3_2023/blob/main/MODELO.png)
