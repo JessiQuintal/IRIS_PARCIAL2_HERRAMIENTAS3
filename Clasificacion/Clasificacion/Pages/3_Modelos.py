@@ -1,4 +1,5 @@
 import pandas as pd
+import streamlit as st
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import StratifiedKFold
@@ -18,6 +19,10 @@ modelo = LogisticRegression(random_state=0).fit(x_train, y_train)
 modelo.score(x_test, y_test)
 modelo.predict(x_test)
 modelos.append(("LR", LogisticRegression()))
+
+st.write(modelo.score(x_test, y_test))
+
+st.write(modelo.predict(x_test))
 
 #kfold = StratifiedKFold(n_splits=10, random_state=1, shuffle=True )
 #resultados = cross_val_score(modelo, xtrain, y_train, cv=kflod, scoring="accuracy")
