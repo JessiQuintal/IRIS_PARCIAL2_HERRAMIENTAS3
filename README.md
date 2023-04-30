@@ -12,3 +12,6 @@ Portafolio Jessica Quintal
 
 -- 3 **Metricas**<br>
 ![Overview](https://github.com/JessiQuintal/herramientas3_2023/blob/main/MODELO.png)
+
+# MONGO DB- LOG DE COMMITS:
+https://colab.research.google.com/drive/1YTO109gBpBrlISmGM6oGiSTyxD53G78h?usp=sharing
