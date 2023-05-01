@@ -17,7 +17,7 @@ st.header("En las siguientes páginas se presentan estadísticas, gráficas y mo
 
 
 # Obtener todas las páginas .py en la carpeta Pages
-pages = [f[:-3] for f in os.listdir("Clasificacion/Pages") if f.endswith(".py")]
+pages = [f[:-3] for f in os.listdir("Clasificacion/Clasificacion/Pages") if f.endswith(".py")]
 
 # Agregar la página seleccionada a la barra lateral
 selection = st.sidebar.radio("Pages:", pages)
