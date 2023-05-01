@@ -38,7 +38,8 @@ def show():
     st.plotly_chart(fig, use_container_width=True)
 
     st.subheader("Correlación-Mapa de color")
-    df_corr=dfIris.corr()
+    dfIris = dfIris.drop('variety', axis=1)
+    df_corr = dfIris.corr()
     fig = go.Figure()
     fig.add_trace(
         go.Heatmap(
@@ -49,4 +50,5 @@ def show():
     )
 
     st.plotly_chart(fig, use_container_width=True)
+
 show()
