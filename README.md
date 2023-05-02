@@ -17,3 +17,6 @@ Portafolio Jessica Quintal
 https://colab.research.google.com/drive/1YTO109gBpBrlISmGM6oGiSTyxD53G78h?usp=sharing
 
 LA CONEXIÓN SE ENCUENTRA AL FINAL, EN LA SECCIÓN "CONEXIÓN BD"
+
+#STREAMLIT IRIS DATASET
+https://jessiquinta-clasificacionclasificacionclasificacioniris-ptbie9.streamlit.app/
