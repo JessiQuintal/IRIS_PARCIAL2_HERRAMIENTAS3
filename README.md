@@ -2,7 +2,7 @@
 Portafolio Jessica Quintal
 # Parcial 2 - Portafolio. Elaborado por Jessica Quintal Gil
 ------------------------
-#Modelo Azure
+# Modelo Azure
 -- 1 **Overview**<br>
 
 ![Overview](https://github.com/JessiQuintal/herramientas3_2023/blob/main/Overview1.png)
@@ -19,7 +19,7 @@ https://colab.research.google.com/drive/1YTO109gBpBrlISmGM6oGiSTyxD53G78h?usp=sh
 
 LA CONEXIÓN SE ENCUENTRA AL FINAL, EN LA SECCIÓN "CONEXIÓN BD"
 ------------------------
-#MongoDB Aggregation Pipeline
+# MongoDB Aggregation Pipeline
 Proceso de crear un pipeline<br>
 -Se va a la sección de aggregation en la colección seleccionada y añadimos un nuevo stage<br>
 -Seleccionamos agrupar a partir de la fecha del commit<br>
